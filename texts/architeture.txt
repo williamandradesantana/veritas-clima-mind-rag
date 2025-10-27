@@ -1,0 +1,21 @@
+research_group/
+│
+├── data/
+│   ├── pdfs/
+│   └── spreadsheets/
+│
+├── services/
+│   ├── __init__.py
+│   ├── env_loader.py         # Carrega variáveis do .env
+│   ├── pinecone_service.py   # Conexão e manipulação do Pinecone
+│   ├── embedding_factory.py  # Cria o tipo de embedding (OpenAI, Gemini, etc)
+│
+├── loaders/
+│   ├── __init__.py
+│   ├── pdf_loader.py         # Extrai texto de PDFs
+│   ├── csv_loader.py         # Extrai texto de CSVs
+│   ├── markdown_loader.py    # Extrai texto de Markdown
+│
+├── main_pdf_test.py          # Exemplo de uso (para PDFs)
+├── main_csv_test.py          # Exemplo de uso (para CSVs)
+└── requirements.txt

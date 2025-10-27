@@ -1,0 +1,14 @@
+https://mhcca.ca/datasets
+The Climate-related Ecological Distress And Resilience (CEDAR) Survey was an online survey of people across Canada that explores climate-related ecological distress and resilience.
+
+https://bmjopen.bmj.com/content/13/12/e079049
+Impact of heat on mental health emergency visits: a time series study from all public emergency centres, in Curitiba, Brazil
+
+https://www.scielo.br/j/rbem/a/kN9b4V5MJQtvygzTNBWsSZS/?format=html&lang=pt
+Aprendendo com o Imprevisível: Saúde Mental dos Universitários e Educação Médica na Pandemia de Covid-19
+
+SAÚDE MENTAL ANALYTICS: Desenvolvimento do Dashboard de dados públicos de Saúde Mental
+https://fswceulp.nyc3.cdn.digitaloceanspaces.com/encoinfo/2023/artigos/saude-mental-analytics-desenvolvimento-do-dashboard-de-dados-publicos-de-saude-mental.docx.pdf
+
+
+https://medium.com/@wasay.abbs/building-a-rag-chatbot-langchain-pinecone-and-gemini-d6f6b4be1015
