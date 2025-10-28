@@ -1,94 +1,133 @@
-from langchain_google_genai import ChatGoogleGenerativeAI
-from langchain.chains import create_retrieval_chain
-from langchain.chains.combine_documents import create_stuff_documents_chain
-from langchain_core.prompts import ChatPromptTemplate
-from langchain_pinecone import PineconeVectorStore
+import os
+from pathlib import Path
 
-import time
+from llama_index.core import VectorStoreIndex, StorageContext, Document
+from llama_index.embeddings.ollama import OllamaEmbedding
+from llama_index.llms.ollama import Ollama
+from llama_index.vector_stores.pinecone import PineconeVectorStore
 
-from test_with_markdown_and_gemini import *
+from loaders.csv_loader import CSVLoader
+from loaders.pdf_loader import PDFLoader
 
-docsearch = PineconeVectorStore(
-    index_name=index_name, embedding=embeddings, namespace=namespace
-)
+from services.env_loader import EnvLoader
+from services.pinecone_service import PineconeService
 
-# Criar prompt personalizado para RAG
-retrieval_qa_chat_prompt = ChatPromptTemplate.from_messages(
-    [
-        (
-            "system",
-            """You are an assistant for question-answering tasks. 
-Use the following pieces of retrieved context to answer the question. 
-If you don't know the answer, just say that you don't know. 
-Keep the answer concise and to the point.
 
-Context: {context}""",
-        ),
-        ("human", "{input}"),
-    ]
-)
+def gather_documents(data_folder="data"):
+    """
+    Collects and processes all CSV and PDF documents from the specified folder.
+    
+    Args:
+        data_folder (str): Root folder containing 'spreadsheets' and 'pdfs' subfolders
+        
+    Returns:
+        list: List of Document objects ready for indexing
+    """
+    documents = []
+    
+    # Process CSV files
+    csv_folder = Path(data_folder) / "spreadsheets"
+    for csv_file in csv_folder.glob("*.csv"):
+        texts = CSVLoader(csv_file).to_text_list()
+        documents.extend(Document(text=t) for t in texts)
+        print(f"✅ CSV '{csv_file.name}' processed successfully.")
+    
+    # Process PDF files
+    pdf_folder = Path(data_folder) / "pdfs"
+    for pdf_file in pdf_folder.glob("*.pdf"):
+        chunks = PDFLoader(pdf_file).extract_text_chunks()
+        documents.extend(Document(text=c) for c in chunks)
+        print(f"✅ PDF '{pdf_file.name}' processed successfully.")
+    
+    return documents
 
-# Configurar retriever
-retriever = docsearch.as_retriever(
-    search_kwargs={"k": 3}  # Retorna os 3 documentos mais relevantes
-)
 
-# Configurar o modelo Gemini
-llm = ChatGoogleGenerativeAI(
-    model="gemini-1.5-flash",  # ou "gemini-1.5-pro" para melhor qualidade
-    google_api_key=GOOGLE_API_KEY,
-    temperature=0.0,
-    convert_system_message_to_human=True,  # Importante para Gemini
-)
+def main():
+    env = EnvLoader()
+    
+    pc = PineconeService(api_key=env.PINECONE_API_KEY)
+    
+    index_name = "llama-integration-example"
+    namespace = "default"
+    
+    # Connect to Pinecone index
+    print(f"🔹 Connecting to Pinecone index '{index_name}'...")
+    pinecone_index = pc.pc.Index(index_name)
+    
+    vector_store = PineconeVectorStore(
+        pinecone_index=pinecone_index, 
+        namespace=namespace
+    )
+    
+    # Initialize embedding model (Ollama local model)
+    embedding_model = OllamaEmbedding(model_name="nomic-embed-text")
+    
+    # Create storage context for vector operations
+    storage_context = StorageContext.from_defaults(vector_store=vector_store)
+    
+    # Check if index already has vectors
+    stats = pinecone_index.describe_index_stats()
+    total_vectors = stats.get("namespaces", {}).get(namespace, {}).get("vector_count", 0)
+    
+    if total_vectors == 0:
+        print(f"Index '{index_name}' is empty. Indexing all PDFs and CSVs from '{Path('data')}'...")
+        
+        # Gather all documents from data folder
+        documents = gather_documents("data")
+        
+        if documents:
+            # Create index and embed all documents
+            print(f"Embedding and indexing {len(documents)} documents...")
+            index = VectorStoreIndex.from_documents(
+                documents, 
+                storage_context=storage_context, 
+                embed_model=embedding_model
+            )
+            print(f"{len(documents)} documents indexed successfully!")
+        else:
+            print("⚠️ No documents found to index.")
+            return
+    else:
+        print(f"📊 Loading existing index with {total_vectors} vectors...")
+        index = VectorStoreIndex.from_vector_store(
+            vector_store=vector_store, 
+            embed_model=embedding_model
+        )
+        print(f"Index loaded successfully with {total_vectors} vectors.")
+    
+    # Initialize LLM (Large Language Model)
+    print("🤖 Initializing Ollama LLM (phi3 model)...")
+    llm = Ollama(
+        model="phi3", 
+        request_timeout=120.0,  # 2 minutes timeout for responses
+        context_window=8000      # Maximum context size
+    )
+    
+    # Create query engine with retrieval settings
+    query_engine = index.as_query_engine(
+        llm=llm, 
+        similarity_top_k=3
+    )
+    
+    # Interactive chatbot loop
+    print("\n" + "="*60)
+    print("🎉 Chatbot ready! Ask questions about your documents.")
+    print("Type 'exit', 'quit', or 'sair' to close the chatbot.")
+    print("="*60)
+    
+    while True:
+        question = input("\nYou: ")
+        
+        if question.lower() in ["sair", "exit", "quit"]:
+            print("👋 Closing chatbot... Goodbye!")
+            break
+        if not question.strip():
+            continue
+        
+        print("🔍 Searching documents...")
+        response = query_engine.query(question)
+        print(f"Bot: {response.response}")
 
-# Criar as chains
-combine_docs_chain = create_stuff_documents_chain(llm, retrieval_qa_chat_prompt)
-retrieval_chain = create_retrieval_chain(retriever, combine_docs_chain)
 
-# Query 1
-query1 = "What are the first 3 steps for getting started with the WonderVector5000?"
-print("=" * 80)
-print("QUERY 1:", query1)
-print("=" * 80)
-
-# Resposta SEM conhecimento (sem RAG)
-print("\n[WITHOUT RAG - Direct Gemini Response]")
-answer1_without_knowledge = llm.invoke(query1)
-print(answer1_without_knowledge.content)
-
-time.sleep(1)
-
-# Resposta COM conhecimento (com RAG)
-print("\n[WITH RAG - Context-Aware Response]")
-answer1_with_knowledge = retrieval_chain.invoke({"input": query1})
-print(answer1_with_knowledge["answer"])
-print("\n")
-
-time.sleep(2)
-
-# Query 2
-query2 = "The Neural Fandango Synchronizer is giving me a headache. What do I do?"
-print("=" * 80)
-print("QUERY 2:", query2)
-print("=" * 80)
-
-# Resposta SEM conhecimento
-print("\n[WITHOUT RAG - Direct Gemini Response]")
-answer2_without_knowledge = llm.invoke(query2)
-print(answer2_without_knowledge.content)
-
-time.sleep(1)
-
-# Resposta COM conhecimento
-print("\n[WITH RAG - Context-Aware Response]")
-answer2_with_knowledge = retrieval_chain.invoke({"input": query2})
-print(answer2_with_knowledge["answer"])
-
-# Mostrar os documentos recuperados
-print("\n" + "=" * 80)
-print("RETRIEVED DOCUMENTS")
-print("=" * 80)
-for i, doc in enumerate(answer2_with_knowledge["context"], 1):
-    print(f"\n📄 Document {i}:")
-    print(f"Content: {doc.page_content}")
-    print(f"Metadata: {doc.metadata}")
+if __name__ == "__main__":
+    main()
