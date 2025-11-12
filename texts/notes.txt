@@ -1,1 +1,5 @@
-Modelar a tabela para adicionar os dados
+blog, notícia, previsão e base científica
+
+engenharia de prompt
+
+misturar as bases
