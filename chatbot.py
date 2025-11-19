@@ -15,7 +15,7 @@ from services.env_loader import EnvLoader
 from services.pinecone_service import PineconeService
 
 
-def gather_documents(data_folder="data"):
+def gather_documents(data_folder="data", subfolder=None):
     """
     Collects and processes all CSV and PDF documents from the specified folder.
 
@@ -27,15 +27,8 @@ def gather_documents(data_folder="data"):
     """
     documents = []
 
-    # Process CSV files
-    csv_folder = Path(data_folder) / "spreadsheets"
-    for csv_file in csv_folder.glob("*.csv"):
-        texts = CSVLoader(csv_file).to_text_list()
-        documents.extend(Document(text=t) for t in texts)
-        print(f"CSV '{csv_file.name}' processed successfully.")
-
     # Process PDF files
-    pdf_folder = Path(data_folder) / "pdfs"
+    pdf_folder = Path(data_folder) / subfolder
     for pdf_file in pdf_folder.glob("*.pdf"):
         chunks = PDFLoader(pdf_file).extract_text_chunks()
         documents.extend(Document(text=c) for c in chunks)
