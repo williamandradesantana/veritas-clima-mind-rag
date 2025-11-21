@@ -1,0 +1,58 @@
+Sendo mais específico e trazendo mais um formato de resposta (contexto geral para o chatbot - independente da base)
+
+pt-br: Resuma os principais pontos da relação entre saúde mental e mudanças climáticas em três frases.
+en: Summarize the main points of how mental health and climate change in three sentences.
+
+pt-br: Explique as principais causas do aquecimento global na Terra e liste medidas práticas que os seres humanos podem tomar para mitigá-lo.
+en: Explain the primary causes of global warming on Earth and list actionable steps that humans can take to mitigate it.
+
+Relação clima extremo + emoções
+
+pt-br: Descreva como eventos climáticos extremos podem influenciar emoções humanas e apresente três formas cientificamente validadas de reduzir esse impacto emocional.
+en: Describe how extreme weather events can influence human emotions and present three scientifically validated ways to reduce this emotional impact.
+
+Clima, ansiedade ambiental e comportamento
+
+pt-br: Explique o que é ansiedade climática e liste quatro comportamentos cotidianos que podem ajudar a reduzir esse sentimento.
+en: Explain what climate anxiety is and list four daily behaviors that can help reduce this feeling.
+
+Psicologia do negacionismo climático
+
+pt-br: Resuma em dois parágrafos os principais fatores psicológicos que levam ao negacionismo climático.
+en: Summarize in two paragraphs the main psychological factors that lead to climate denialism.
+
+Impacto do calor extremo na saúde cognitiva
+
+pt-br: Explique em até cinco frases como ondas de calor podem afetar a concentração, memória e tomada de decisão.
+en: Explain in up to five sentences how heatwaves can affect concentration, memory, and decision-making.
+
+Verde urbano + bem-estar
+
+pt-br: Liste cinco benefícios psicológicos comprovados de viver em cidades com maior cobertura vegetal.
+en: List five proven psychological benefits of living in cities with more green areas.
+
+------------------
+
+Trazendo um contexto + previsão do tempo (focado no chatbot de previsão, mas testar nos restantes também)
+pt-br: Sou sergipano e há previsão de fortes chuvas e risco de enchentes em três dias. Como posso me proteger?
+en: I am from Sergipe, Brazil, and heavy rain with flood risk is forecast for three days from now. How can I protect myself?
+
+Tempestade de calor + saúde mental
+
+pt-br: Sou de Aracaju e foi emitido um alerta de onda de calor para os próximos cinco dias. Como posso me preparar física e emocionalmente?
+en: I live in Aracaju, Brazil, and a heatwave alert has been issued for the next five days. How can I prepare both physically and emotionally?
+
+Tempestades + crianças
+
+pt-br: No Ceará, há previsão de tempestades fortes para o fim de semana. Como posso ajudar crianças a lidar com o medo durante o evento?
+en: In Ceará, strong storms are forecast for the weekend. How can I help children cope with fear during the event?
+
+Enchentes + tomada de decisão
+
+pt-br: Sou de Santa Catarina e há risco de enchentes nas próximas 48 horas. Me explique, em formato de checklist, como tomar decisões seguras sem entrar em pânico.
+en: I'm from Santa Catarina, and there is a flood risk within the next 48 hours. Explain, in a checklist format, how to make safe decisions without panicking.
+
+Chuvas contínuas + rotina
+
+pt-br: Moro em Sergipe e haverá uma semana inteira de chuvas intensas. Como posso adaptar minha rotina para reduzir stress e riscos físicos?
+en: I live in Sergipe, and a full week of heavy rain is expected. How can I adapt my routine to reduce stress and physical risks?
