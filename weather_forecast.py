@@ -48,7 +48,7 @@ def main():
     if total_vectors == 0:
         print(f"📂 Index '{index_name}' is empty. Indexing 'news' PDFs...")
 
-        documents = gather_documents("data", subfolder="news")
+        documents = gather_documents("data", subfolder="weather_forecast")
 
         if documents:
             print(f"🔧 Indexing {len(documents)} weather documents...")
