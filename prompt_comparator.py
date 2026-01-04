@@ -3,13 +3,13 @@ from sentence_transformers import SentenceTransformer, util
 model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 prompts = [
-    "Seasonal changes have been known to influence moods, but specific effects on those with anxiety disorders can vary greatly depending on personal sensitivities and individual circumstances. Some may find warmer temperatures calming while others might feel more anxious due to the heat or longer daylight hours associated with summer seasons leading to potential social pressure for outdoor activities.",
+    "Extreme weather conditions may lead to insomnia and nightmares which could potentially contribute to depression and PTSD, according to scientific evidence related to mental health and climate change effects on individuals.",
 
-    "Fluctuating night time temperatures can lead to disturbed sleep patterns and exacerbate existing conditions in individuals suffering from insomnia or other sleep disorders, although responses may differ among those sensitive to cold weather. Cooler temperatures are generally more conducive for good quality sleep.",
+    "Severe weather-related events can result in a significant need for enhanced long-term mental health services due to the profound psychological distress they cause, as suggested by discussions surrounding climate change and its effects.",
 
-    "Different people respond differently; some might find ample daylight uplifting and beneficial, while others may feel overwhelmed by too much exposure leading to increased lethargy or even seasonal affective disorder. The balance of sunlight is crucial for maintaining mood stability in individuals with depression.",
+    "A person’s comprehension of terms like climate context is shaped largely based on climatic variables they frequently encounter in their locality. Their interpretation of how these elements influence their psychological state relies heavily on personal experiences and observations, as indicated by discussions among various individuals across different cultures.",
     
-    "Heavy and prolonged periods of rain can lead to feelings of melancholy or seasonal affective disorder due to lack of sunlight, but effects may differ among individuals sensitive to changes in weather patterns.",
+    "Recent research has taken into account daily or weekly variations in factors like day-time temperature, night-time temperature, rainfall, sunshine hours and cloud cover when examining their potential effects on psychological wellbeing.",
 ]
 
 prompt_base = "How are mental health and climate change related?"

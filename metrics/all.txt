@@ -1,0 +1,15 @@
+Questions
+Score: 0.5031 | Prompt: 1: How does extreme weather affect sleep patterns?
+Score: 0.6936 | Prompt: 2: What kind of impact do severe weather-related events have on long term mental health services?
+Score: 0.6995 | Prompt: 3: How does one's understanding of 'climate context' relate to their perception of weather conditions affecting their mental wellbein?
+Score: 0.7484 | Prompt: 4: What recent weather conditions were studied to understand its impacts on mental health?
+
+Responses
+
+Score: 0.6065 | Prompt: Extreme weather conditions may lead to insomnia and nightmares which could potentially contribute to depression and PTSD, according to scientific evidence related to mental health and climate change effects on individuals.
+
+Score: 0.7748 | Prompt: Severe weather-related events can result in a significant need for enhanced long-term mental health services due to the profound psychological distress they cause, as suggested by discussions surrounding climate change and its effects.
+
+Score: 0.5898 | Prompt: A person’s comprehension of terms like climate context is shaped largely based on climatic variables they frequently encounter in their locality. Their interpretation of how these elements influence their psychological state relies heavily on personal experiences and observations, as indicated by discussions among various individuals across different cultures.
+
+Score: 0.5810 | Prompt: Recent research has taken into account daily or weekly variations in factors like day-time temperature, night-time temperature, rainfall, sunshine hours and cloud cover when examining their potential effects on psychological wellbeing.
