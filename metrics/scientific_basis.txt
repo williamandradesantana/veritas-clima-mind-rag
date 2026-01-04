@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.8793 | Prompt: How can socioeconomic, political and environmental determinants be affected by climate change leading to mental health issues?
+Score: 0.7861 | Prompt: What are the long-term mental health services needed due to climate change effects?
+Score: 0.7468 | Prompt: How can we promote multilevel action regarding responses towards mitigating climate-related impacts on mental health?
+Score: 0.4790 | Prompt: How do extreme weather events impact sleep?
+
+Responses
+
+Score: 0.8482 | Prompt: Climate change could indirectly affect various sociopolitical aspects which in turn have an influence on the overall state of mental health across populations due to altered living conditions, resource scarcity or conflicts.
+
+Score: 0.7883 | Prompt: Mental health services resilient to climate changes, along with funding for related research is necessary as a response to mitigate impacts of such environmental factors on psychological wellbeing.
+
+Score: 0.7359 | Prompt: Responses range from individual emotions and actions up to political measures including funding for research in this rapidly growing interdisciplinary field of study which involves key concepts, pathways through which climate change may affect individuals' psychological wellbeing.
+
+Score: 0.4888 | Prompt: Extreme weather conditions may cause insomnia and nightmares which could potentially contribute to depression and PTSD onset in individuals affected by these events.

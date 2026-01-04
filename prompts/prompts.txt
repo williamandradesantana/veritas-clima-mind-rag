@@ -57,3 +57,21 @@ en: I'm from Santa Catarina, and there is a flood risk within the next 48 hours.
 
 pt-br: Moro em Sergipe e haverá uma semana inteira de chuvas intensas. Como posso adaptar minha rotina para reduzir stress e riscos físicos?
 en: I live in Sergipe, and a full week of heavy rain is expected. How can I adapt my routine to reduce stress and physical risks?
+
+
+
+Bridging AI and Psychology: A RAG-Driven Approach to Inhibitory Control and ADHD Interventions (prompts)
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to work with cognitive techniques for a 10-year-old patient diagnosed with ADHD who has a deficit in Inhibition Control and reacts aggressively in a school setting when frustrated.
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to work with behavioral techniques for a 10-year-old patient diagnosed with ADHD who has a deficit in Inhibition Control and reacts aggressively in a school setting when frustrated.
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to work with cognitive techniques for a 10-year-old patient diagnosed with ADHD who has a deficit in Inhibition Control and reacts aggressively in a school setting when frustrated, based on decisional balance and consequence analysis.
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to work with behavioral techniques for a 10-year-old patient diagnosed with ADHD who has a deficit in Inhibition Control and reacts aggressively in a school setting when frustrated.
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to explain what Inhibition Control is and its negative effects to a 10-year-old patient diagnosed with ADHD who exhibits aggressive behavior in a school setting when frustrated.
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to work with cognitive techniques for a 10-year-old patient diagnosed with ADHD who has a deficit in Inhibition Control and reacts aggressively in a school setting when frustrated, based on decisional balance and consequence analysis. I would like to use scenes from children's films as a basis before applying them to his life situations.
+
+I am a psychologist working with Cognitive Behavioral Therapy and would like to work on decisional balance, decision-making, and consequence analysis with a 10-year-old patient diagnosed with ADHD who has a deficit in Inhibition Control and reacts aggressively in a school setting when frustrated. Create a lighthearted story or parable that I can use.

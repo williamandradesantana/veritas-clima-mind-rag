@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.8956 | Prompt: What role does climate change play in exacerbating existing mental health issues?
+Score: 0.7966 | Prompt: How does environmental sustainability relate to mental health?
+Score: 0.7278 | Prompt: How does climate change amplify social inequalities impacting accessibility of mental health services?
+Score: 0.7116 | Prompt: How does climate change impact different communities' perception of stress?
+
+Responses
+
+Score: 0.7202 | Prompt: Climate-related events often lead to heightened levels of anxiety and distress, with some communities experiencing more significant psychological effects due to their vulnerability or exposure. This can be influenced by a variety of factors including socio-economic status, accessibility of resources for mental health support, past experiences with such disasters, etc.
+
+Score: 0.6714 | Prompt: Climate anxiety can lead to increased stress and worsen pre-existing conditions like depression or post-traumatic stress disorder (PTSD). The uncertainty surrounding the future impacts of climate changes can also trigger worry, fear, and distress.
+
+Score: 0.5733 | Prompt: Living in a clean environment promotes better psychological wellbeing while exposure or lack thereof due to deteriorating environmental conditions can lead to stress-related issues. Furthermore, the knowledge that one is doing their part for preserving natural resources and helping future generations could contribute positively to mental health (i.e., eco-anxiety).
+
+Score: 0.5605 | Prompt: Climate crises often disproportionately affect marginalized communities, exacerbating existing disparities and challenges accessing necessary care. This might be due to resource allocation prioritization or systemic bias towards certain groups over others during crisis periods.

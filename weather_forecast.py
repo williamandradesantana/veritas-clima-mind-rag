@@ -115,5 +115,6 @@ def main():
 
         print(f"💾 Log saved to {log_file}")
 
+
 if __name__ == "__main__":
     main()

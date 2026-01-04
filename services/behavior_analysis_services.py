@@ -23,10 +23,7 @@ def analyze_behavior_text(text: str) -> dict:
     - behavioral_summary
     """
 
-    response = ollama.generate(
-        model="phi3",
-        prompt=prompt
-    )
+    response = ollama.generate(model="phi3", prompt=prompt)
 
     raw_output = response["response"].strip()
 

@@ -1,0 +1,13 @@
+Questions
+
+Score: 0.7491 | Prompt: How aware are you of any literature examining the relationship between weather/climate conditions and your own or others' mental health?
+Score: 0.6980 | Prompt: What are your personal observations or thoughts regarding how different weather and climatic factors might be affecting patients' mental health, apart from the commonly discussed aspects such as sunlight exposure?
+Score: 0.6340 | Prompt: Do you believe recent local or regional weather events have had an impact on your practice and if so, how has it manifested in the patients’ mental health responses?
+Score: 0.5884 | Prompt: Have you observed seasonal fluctuations in mental health issues within patients throughout the year, if so which seasons seem to have higher instances of these problems?
+
+Responses
+
+Score: 0.6551 | Prompt: Understanding whether there's a pattern can shed light on potential environmental influences on mental health conditions beyond individual circumstances.
+Score: 0.5013 | Prompt: Knowledge of such instances can provide insight into real-time effects climate change might be having outside traditional environmental factors.
+Score: 0.4150 | Prompt: This will help in understanding how much knowledge exists on this topic among professionals who deal with mental health regularly.
+Score: 0.2573 | Prompt: This could bring to fore lesser-known elements that contribute to a patient's wellbeing under various conditions.
