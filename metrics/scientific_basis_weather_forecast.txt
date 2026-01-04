@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.4887 | Prompt: Question 1: How might extreme weather events impact an individual's sleep patterns?
+Score: 0.8029 | Prompt: Question 2: What are the potential effects on community mental health due to climate change-related events like heatwaves or storms?
+Score: 0.5517 | Prompt: Question 3: What are some organizational responses required towards mental health services amidst increasing weather-related disasters?
+Score: 0.5302 | Prompt: Question 4: How does lack of clarity around key terminologies like 'Climate Change worry' add complexity in understanding this subject?
+
+Responses
+
+Score: 0.5404 | Prompt: The information suggests these kinds of severe weather occurrences could lead to insomnia and nightmares, potentially contributing to mental health conditions such as depression and PTSD.
+
+Score: 0.6334 | Prompt: According to this context, extreme weather incidents might affect communal mental wellbeing by potentially triggering acute stress reactions, adjustment disorders and PTSD. It also highlights a need for long term studies focusing on these impacts over time within affected communities especially in the Global South due to limited resources available for adaptation and mitigation of climate change effects therein.
+
+Score: 0.7736 | Prompt: This context indicates a need for enhanced, resilient mental health infrastructure along with increased funding dedicated to the intersection of climate research and its impact on mental health as these issues become more prominent due to escalating extreme weather events.
+
+Score: 0.6091 | Prompt: As per the provided information, unclear definitions such as climate change anxiety can lead to difficulties comprehending and addressing these issues effectively due to ambiguous terms. This highlights a need for standardization or clearer explanations of essential concepts related to this topic.

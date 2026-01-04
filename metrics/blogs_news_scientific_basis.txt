@@ -1,0 +1,17 @@
+Questions
+
+Score: 0.7028 | Prompt: Question 1: How does experiencing natural disasters due to climate change affect individuals' psychological wellbeing?
+Score: 0.7356 | Prompt: Question 2: What are some psychological impacts on children due to climate change?
+Score: 0.7123 | Prompt: Question 3: How does social media influence public understanding and response towards climate change mental health?
+Score: 0.5890 | Prompt: Question 4: What is solastalgia in relation to climate change?
+
+Responses
+
+Score: 0.6881 | Prompt: Climate-related natural disasters often lead to significant emotional distress, including anxiety and depression among affected communities as they cope with loss and displacement. Studies have found that such events can increase the risk of mental health issues in both short and long term periods post-disaster.
+
+Score: 0.6600 | Prompt: Children experiencing environmental changes or extreme weather conditions linked to climate change may display increased signs of anxiety, stress, and 
+behavioral problems at school. Their perception of the future is often colored by concern for their environment leading them to feel helplessness about what's happening around them.
+
+Score: 0.6704 | Prompt: Social media can amplify feelings of fear, anxiety or hopelessness linked with the impacts of climate change on mental wellbeing through constant exposure to alarming news about environmental crises and their potential psychological effects.
+
+Score: 0.4806 | Prompt: Solastagia refers to a form of distress caused by experiencing negative changes in one's local environment, often linked with feelings of loss or grief due to environmental degradation associated with climate change. It highlights how deeply personal and psychological impacts can be tied into broader global issues like climate change.

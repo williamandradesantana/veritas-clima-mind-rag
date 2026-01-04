@@ -3,13 +3,13 @@ from sentence_transformers import SentenceTransformer, util
 model = SentenceTransformer("sentence-transformers/all-mpnet-base-v2")
 
 prompts = [
-    "While this query is not directly tied to data from WeatherBench or weather forecasting, it's known that changes in atmospheric pressure can impact physical well-being and may indirectly affect mental health. Further research would be needed to establish a direct link between these factors using meteorological observations.",
+    "Seasonal changes have been known to influence moods, but specific effects on those with anxiety disorders can vary greatly depending on personal sensitivities and individual circumstances. Some may find warmer temperatures calming while others might feel more anxious due to the heat or longer daylight hours associated with summer seasons leading to potential social pressure for outdoor activities.",
 
-    "This question involves understanding how changes in weather patterns, which can influence atmospheric conditions such as sunlight exposure and temperature, may impact mental health conditions that have a temporal pattern.",
+    "Fluctuating night time temperatures can lead to disturbed sleep patterns and exacerbate existing conditions in individuals suffering from insomnia or other sleep disorders, although responses may differ among those sensitive to cold weather. Cooler temperatures are generally more conducive for good quality sleep.",
 
-    "The ability to predict extreme weather accurately could potentially reduce anxiety or stress related to upcoming severe climatic changes by allowing individuals more time to prepare and mitigate potential impacts, thereby improving overall mental health during such times.",
+    "Different people respond differently; some might find ample daylight uplifting and beneficial, while others may feel overwhelmed by too much exposure leading to increased lethargy or even seasonal affective disorder. The balance of sunlight is crucial for maintaining mood stability in individuals with depression.",
     
-    "Changes in weather due to global warming can disrupt the dispersal of pollen and other particles, potentially impacting individuals with respiratory or allergy conditions. Research into this would involve examining correlations between long-term meteorological patterns and health records related to allergic reactions and asthma attacks within a given region over time.",
+    "Heavy and prolonged periods of rain can lead to feelings of melancholy or seasonal affective disorder due to lack of sunlight, but effects may differ among individuals sensitive to changes in weather patterns.",
 ]
 
 prompt_base = "How are mental health and climate change related?"

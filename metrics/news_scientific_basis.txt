@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.5432 | Prompt: 1. How does weather influence individuals' moods?
+Score: 0.9210 | Prompt: 2. What is the connection between climate change and mental health?
+Score: 0.7267 | Prompt: 3. Can extreme weather events have a significant effect on mental health?
+Score: 0.8392 | Prompt: 4. How might climate change affect mental health in the long run?
+
+Responses
+
+Score: 0.5052 | Prompt: Changes in weather conditions such as sunny or cloudy days are often associated with fluctuations in people's emotions, where some may feel happier on bright and warm days while others might find gloomy and cold periods more depressing. However, personal experiences can greatly vary based on individual resilience and coping mechanisms to weather changes.
+
+Score: 0.7368 | Prompt: Climate change exacerbates environmental stressors which in turn increases anxiety levels among individuals due to uncertainty about future living conditions, leading to potential impacts on overall well-being (Adaptation strategies are being developed by several organizations). Awareness of these changes and their psychological effects is growing.
+
+Score: 0.3945 | Prompt: Yes, the aftermath of severe weather occurrences like hurricanes or floods can lead to Post-Traumatic Stress Disorder (PTSD) among affected individuals due to intense fear and loss experienced. Recovery requires psychological support for trauma victims.
+
+Score: 0.6327 | Prompt: Longer term effects of sustained changes or extreme weather events can result in chronic stress, potentially leading to persistent conditions such as depression and anxiety disorders among affected populations (Research on this topic is continuously evolving). It's important for communities to develop adaptive coping strategies.

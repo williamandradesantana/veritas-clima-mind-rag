@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.5944 | Prompt: 1. How do recent temperature fluctuations impact your mood or emotional state?
+Score: 0.6608 | Prompt: 2. Do you believe your mental health conditions are affected by changes in precipitation? If yes, could it be linked to Seasonal Affective Disorder (SAD), Bipolar disorder, or Substance Abuse Disorders as well during specific seasons such as rainy winters and dry summers?
+Score: 0.6731 | Prompt: 3. How does day-to-day temperature variation affect your mental health?
+Score: 0.6119 | Prompt: 4. Can you share your personal experiences about how weather conditions have affected your medication intake or overall mental health management?
+
+Responses
+
+Score: 0.7001 | Prompt: This question aims to understand if there's any correlation between weather changes, specifically temperature variations in different seasons (hotter summers and colder winters) with mental health conditions like depression or anxiety disorders among the general population. - Some may find hotter temperatures stressful while cold can induce Seasonal Affective Disorder symptoms due to reduced sunlight exposure in winter months, leading to alterations in mood and emotional state. However, individual experiences might vary significantly based on personal preferences or coping mechanisms.
+
+Score: 0.6914 | Prompt: This question is designed to identify if there's any connection between weather changes in precipitation and mental health conditions like Seasonal Affective Disorder (where lack of sunlight can lead to depressive symptoms), Bipolar disorder, or Substance Abuse during certain seasons. However, the impact might vary among individuals based on their specific condition(s) and personal experiences with these climatic changes.
+
+Score: 0.5147 | Prompt: This question helps understand if daily fluctuations in weather conditions like clear skies versus overcast/rainy days impact someone's mental wellbeing. While some might find changes invigorating, others may experience mood alteration due to a lack of sunlight or increased gloominess on cloudy/rainy days within the same seasonal period.
+
+Score: 0.7037 | Prompt: This question explores if individuals associate changes in climate and weather with variations in their own consumption of psychiatric drugs, therapy needs, sleep patterns, mood swings etc., providing a more individual-centered understanding. However, it's important to note that experiences can widely differ based on personal mental health conditions or medication regimes they might be following and how each responds uniquely to weather changes.

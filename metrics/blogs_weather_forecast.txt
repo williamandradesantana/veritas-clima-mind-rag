@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.6925 | Prompt: 1. How does experiencing extreme weather events impact individual's mood disorders?
+Score: 0.5709 | Prompt: 2. How does gradual changes in earth's systems like warming temperatures influence individual wellbeing?
+Score: 0.8348 | Prompt: 3. How do social factors interplay in determining mental health impacts from climate change?
+Score: 0.4943 | Prompt: 4. What are some preventive measures that could be taken by communities facing severe weather events due to climate change?
+
+Responses
+
+Score: 0.7384 | Prompt: Individuals who experience severe weather conditions have been found to develop anxiety, sleep disturbances, depression and post-traumatic stress as a result of the direct mental health effects associated with these acute climate change occurrences.
+
+Score: 0.7227 | Prompt: Gradual environmental transformations, such as increasing global temperatures can induce similar patterns of mood disorders and anxiety seen with acute weather events due to the ongoing stressors they present.
+
+Score: 0.6508 | Prompt: Broader societal issues, like accessibility to resources or community support systems can play a significant role in shaping an individual's experience and resilience towards the adverse effects of climate changes on their wellbeing.
+
+Score: 0.4304 | Prompt: Communities can take steps such as creating a robust support network, developing disaster preparedness plans and investing in sustainable infrastructure for improved resilience against the impacts of extreme weather caused by changes in earth's systems.

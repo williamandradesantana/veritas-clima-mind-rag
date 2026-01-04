@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.7147 | Prompt: Question 1: How does extreme weather due to climate change influence individual's anxiety levels?
+Score: 0.4881 | Prompt: Question 2: How do gradual changes in the earth's systems, such as warming temperatures due to climate change impact sleep disturbances?
+Score: 0.8117 | Prompt: Question 3: How do social and environmental factors compound the effects of climate change on mental health?
+Score: 0.6645 | Prompt: Question 4: What measures are in place to support those affected with climate-induced anxiety, sleep disturbances or mood disorders?
+
+Responses
+
+Score: 0.7748 | Prompt: This question addresses one aspect where direct impacts occur as individuals experience acute events linked to climate change, which have been found to result in various mental health outcomes such as heightened anxiety. Research indicates that these experiences can lead to a range of psychological effects including but not limited to mood disorders and post-traumatic stress (Cianconi et al., 2020).
+
+Score: 0.7156 | Prompt: This question explores another pathway of direct mental health and wellbeing effects caused by long-term climatic shifts. These subtle yet persistent alterations can significantly disrupt one’s regular patterns leading to issues like insomnia, restlessness or unrest (Hayes et al., 2018).
+
+Score: 0.6838 | Prompt: This question aims at understanding the intricate interplay between societal, cultural or personal contextual elements that can amplify the psychological stress caused by environmental shifts. These influences could potentially increase an individuals’ vulnerability and responsiveness toward developing mental health issues (Treble et al., 2023).
+
+Score: 0.7450 | Prompt: How effective have these interventions been so far according to available resources and studies on this subject matter. This question seeks information related to the development of public health initiatives that aid mental wellbeing in light of climatic changes. These would encompass dual knowledge from environmental sustainability along with insights into how it links towards human geography (Martin et al., 2021).

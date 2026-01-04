@@ -1,0 +1,16 @@
+Questions
+
+Score: 0.5748 | Prompt: 1) How do seasonal variations in day-time temperature affect individuals with anxiety disorders?
+Score: 0.4394 | Prompt: 2) How do night-time temperature variations impact sleep disorders?
+Score: 0.4981 | Prompt: 3) How does varying sunshine hours influence depression levels?
+Score: 0.6391 | Prompt: 4) How does the amount of rainfall during a week impact people's mental health?
+
+Responses
+
+Score: 0.4695 | Prompt: Seasonal changes have been known to influence moods, but specific effects on those with anxiety disorders can vary greatly depending on personal sensitivities and individual circumstances. Some may find warmer temperatures calming while others might feel more anxious due to the heat or longer daylight hours associated with summer seasons leading to potential social pressure for outdoor activities.
+
+Score: 0.3132 | Prompt: Fluctuating night time temperatures can lead to disturbed sleep patterns and exacerbate existing conditions in individuals suffering from insomnia or other sleep disorders, although responses may differ among those sensitive to cold weather. Cooler temperatures are generally more conducive for good quality sleep.
+
+Score: 0.3996 | Prompt: Different people respond differently; some might find ample daylight uplifting and beneficial, while others may feel overwhelmed by too much exposure leading to increased lethargy or even seasonal affective disorder. The balance of sunlight is crucial for maintaining mood stability in individuals with depression.
+
+Score: 0.4034 | Prompt: Heavy and prolonged periods of rain can lead to feelings of melancholy or seasonal affective disorder due to lack of sunlight, but effects may differ among individuals sensitive to changes in weather patterns.

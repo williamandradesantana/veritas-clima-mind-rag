@@ -48,7 +48,7 @@ def main():
     if total_vectors == 0:
         print(f"📂 Index '{index_name}' is empty. Indexing 'news' PDFs...")
 
-        documents = gather_documents("data", subfolder="news")
+        documents = gather_documents("data", subfolder="news_weather_forecast_scientific_basis")
 
         if documents:
             print(f"🔧 Indexing {len(documents)} weather documents...")
@@ -103,7 +103,7 @@ def main():
         print("📊 Markers:", markers)
 
         os.makedirs("logs", exist_ok=True)
-        log_file = "logs/behavior_log_news.txt"
+        log_file = "logs/behavior_log_news_weather_forecast_scientific_basis.txt"
 
         with open(log_file, "a", encoding="utf-8") as f:
             f.write("\n" + "=" * 80 + "\n")

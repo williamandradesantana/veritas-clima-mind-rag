@@ -1,0 +1,17 @@
+Questions
+
+Score: 0.5161 | Prompt: 1. How does experiencing extreme weather events impact individuals' sleep patterns?
+Score: 0.7364 | Prompt: 2. What types of mood disturbances are common in individuals exposed to gradual changes related to global warming?
+Score: 0.3758 | Prompt: 3. How does understanding these patterns help in designing better public health interventions?
+Score: 0.3996 | Prompt: 4. In what ways do these changes affect our broader social interactions?
+
+Responses
+
+Score: 0.7005 | Prompt: This refers to understanding how acute climatic changes influence psychological conditions such as anxiety or depression which might disrupt normal sleeping habits among affected populations. Although the context doesn't provide specific data, it highlights this relationship within its discussion on direct mental health outcomes of extreme weather events like floods and hurricanes tied to climate change.
+
+Score: 0.8084 | Prompt: This question explores the indirect impact pathways where slow environmental alterations might lead to certain mental health issues, an aspect discussed as part of the three ways through which climate change affects our psychological wellbeing.
+
+Score: 0.7762 | Prompt: This is a crucial question that seeks insights on how knowledge about both environmental sustainability and human geography can contribute to mental health support strategies, an element the context emphasizes as integral for addressing climate change's psychological impact.
+
+Score: 0.7736 | Prompt: This question aims at understanding if there are sociocultural factors involved in how individuals and communities perceive and respond to mental health 
+issues arising from climatic alterations, which the context suggests is an important aspect of studying climate change's impact on psychological wellbeing. However, it doesn't provide specific insights about this interaction within its scope but invites further exploration into these dynamics in real-world settings like weather forecasts and blog discussions around mental health and climatic changes.

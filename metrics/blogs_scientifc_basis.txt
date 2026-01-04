@@ -1,0 +1,15 @@
+Questions
+Score: 0.7236 | Prompt: 1: How does experiencing natural disasters due to climate change contribute to psychological distress in affected communities?
+Score: 0.6688 | Prompt: 2: What role does the environment play in individual perceptions of wellbeing when considering climate change?
+Score: 0.6881 | Prompt: 3: How does climate change impact the prevalence rates of seasonal affective disorder?
+Score: 0.6409 | Prompt: 4: How do climate change-related feelings of isolation impact communities and individuals?
+
+Responses
+
+Score: 0.6428 | Prompt: Experiencing natural disasters as a result of climate change often leads to significant emotional and mental health challenges, including feelings of grief, anxiety, and post-traumatic stress. The direct impact on individuals' lives can cause prolonged states of distress due to loss and displacement.
+
+Score: 0.7499 | Prompt: Environmental surroundings significantly contribute to one's sense of mental health, as a clean, sustainable ecosystem can foster tranquility and peace. Climate-induced alterations may disrupt this balance leading to emotional distress or anxiety.
+
+Score: 0.6259 | Prompt: Changes in seasons due to global warming can lead to imbalances in sunlight exposure which is linked with Seasonal Affective Disorder (SAD). These alterations could potentially increase SAD incidents.
+
+Score: 0.7412 | Prompt: Feelings of societal detachment caused by the effects of climate change may lead to increased rates of mental health issues such as depression, anxiety, or loneliness in certain populations.

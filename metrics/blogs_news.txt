@@ -1,0 +1,17 @@
+Questions
+
+Score: 0.6909 | Prompt: 1) How does living in regions more vulnerable to environmental changes due to climate impact contribute to an increased risk of anxiety disorders?
+Score: 0.7753 | Prompt: 2) How does climate change amplify existing mental health disparities in marginalized communities?
+Score: 0.5310 | Prompt: 3) What role does community engagement play in adaptive responses towards environmental changes caused by climate change?
+Score: 0.4668 | Prompt: 4) How does media coverage on environmental disasters influence public perception and consequently, individual's stress levels?
+
+Responses
+
+Score: 0.5534 | Prompt: Residents in such areas may experience heightened levels of stress, worry and uncertainty about their future, which can manifest as anxiety disorders. This is because they directly face the consequences of changing ecosystems affecting their livelihoods or living conditions without adequate support systems to cope with these changes.
+
+Score: 0.7393 | Prompt: Marginalized groups often face social and economic hardships, which can be worsened by the impacts of environmental instability caused by climate change like food scarcity or housing insecurities. These added pressures may lead to a rise in mental health issues among these populations due to increased stress levels and limited resources for coping mechanisms.
+
+
+Score: 0.6181 | Prompt: When communities come together, pool their experiences, share solutions or take collective action (like tree-planting), it can foster resilience and empowerment. This not only aids adaptation to the immediate impacts of climatic shifts but also promotes mental wellbeing by giving people a sense of control over adversity situations caused by climate change.
+
+Score: 0.7160 | Prompt: Often sensationalized or inaccurate reporting can induce anxiety about future risks of natural calamities intensified by climate change. This could lead to an increased level of collective worry affecting the overall mental health status within a community.
