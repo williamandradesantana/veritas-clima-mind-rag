@@ -1,5 +1,0 @@
-vetorizar entre blog, notícia, previsão e base científica
-
-engenharia de prompt
-
-misturar as bases para criar o rating
